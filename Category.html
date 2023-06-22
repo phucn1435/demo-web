@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="index.css">
+    <script src="https://kit.fontawesome.com/3206410232.js" crossorigin="anonymous"></script>
+    <script src="app.js"></script>
+    <link
+    rel="stylesheet"
+    type="text/css"
+    href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"
+  />
+</head>
+<body>
+    <div class="container1">
+        <div id="back-to-top" ><i class="fa-solid fa-arrow-up" style="color: #ffffff;"></i></div>
+        <div class="header">
+            <div class="header_slide">
+                <img src="https://lh3.googleusercontent.com/T6D_zcRDHlK6bTLn1zuTGci6iT7UXaGeiM4mLQbZ40qGHIUkF3Vf7_YvYmXEu6Dc3JLUvB0jT0DJJn6YN632SqO6oQLVeKuWXA=w1920-rw" alt="">
+            </div>
+            <div class="header_list">
+                <ul class="header_ul">
+                    <li><a href="#"><i class="fa-sharp fa-solid fa-ticket" style="color: #ffffff;"></i> <span>Khuyến mãi</span></a></li>
+                    <li><a href="#"><i class="fa-regular fa-car"></i> <span>Hệ thống Showroom</span></a></li>
+                    <li class="counselor"><a href="#"><svg style="margin-bottom: -2px;" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><style>svg{fill:#ffffff}</style><path d="M256 80C149.9 80 62.4 159.4 49.6 262c9.4-3.8 19.6-6 30.4-6c26.5 0 48 21.5 48 48V432c0 26.5-21.5 48-48 48c-44.2 0-80-35.8-80-80V384 336 288C0 146.6 114.6 32 256 32s256 114.6 256 256v48 48 16c0 44.2-35.8 80-80 80c-26.5 0-48-21.5-48-48V304c0-26.5 21.5-48 48-48c10.8 0 21 2.1 30.4 6C449.6 159.4 362.1 80 256 80z"/></svg> <span>Tư vấn mua hàng (miễn phí): 1800 6867</span></a></li>
+                    <li><a href="#"><i class="fa-solid fa-user"></i> <span>CSKH: 1800 6865</span></a></li>
+                    <li><a href="#"><i class="fa-regular fa-newspaper"></i> <span>Tin công nghệ</span></a> </li>
+                    <li><a href="#"><i class="fa-solid fa-wrench"></i> <span>Xây dựng cấu hình</span></a></li>
+                </ul>
+            </div>
+            <div style="background: white; width: 100%" class="header_profile" id="fixed">
+                <div style="width: 75%; margin: 0 auto" class="header_profile-container">
+                    <div class="header_profile-logo" id="hide-element">
+                        <a href=""><img src="https://tse1.mm.bing.net/th?id=OIP._IMSfS5_88ol6sGY74VXzgHaDr&pid=Api&P=0&h=180" alt=""></a>
+                    </div>  
+                    <div style="display: none;" id="header-cate" class="">
+                        <div class="header-cate--container">
+                            <div class="header-cate--title">
+                                <div class=""><i class="fa-solid fa-arrow-right" style="color: rgb(130, 134, 158);"></i></div>
+                                <div class="">
+                                    <span style="color: rgb(130, 134, 158);">Danh mục sản phẩm</span>
+                                </div>
+                            </div>
+                            <div class="header-cate--title--list">
+                                <div style="height: 40px;  width: 100%; line-height: 40px;" class="">
+                                    <div style="width: 20%; float: left; " class="">
+                                        <span style="width: 100%; padding-left: 10px; ">
+                                            <svg style="background-color: black;" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M128 32C92.7 32 64 60.7 64 96V352h64V96H512V352h64V96c0-35.3-28.7-64-64-64H128zM19.2 384C8.6 384 0 392.6 0 403.2C0 445.6 34.4 480 76.8 480H563.2c42.4 0 76.8-34.4 76.8-76.8c0-10.6-8.6-19.2-19.2-19.2H19.2z"/></svg>
+                                        </span>
+                                    </div>
+                                    <div style="width: 80%; float: left;" class="">
+                                        <span style="width: 100%;">Laptop</span>
+                                    </div>   
+                                </div>
+                                <div style="height: 40px;  width: 100%; line-height: 40px;" class="">
+                                    <div style="width: 20%; float: left; " class="">
+                                        <span style="width: 100%; padding-left: 10px; ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M128 32C92.7 32 64 60.7 64 96V352h64V96H512V352h64V96c0-35.3-28.7-64-64-64H128zM19.2 384C8.6 384 0 392.6 0 403.2C0 445.6 34.4 480 76.8 480H563.2c42.4 0 76.8-34.4 76.8-76.8c0-10.6-8.6-19.2-19.2-19.2H19.2z"/></svg>
+                                        </span>
+                                    </div>
+                                    <div style="width: 80%; float: left;" class="">
+                                        <span style="width: 100%;">Laptop</span>
+                                    </div>   
+                                </div>
+                                <div style="height: 40px;  width: 100%; line-height: 40px;" class="">
+                                    <div style="width: 20%; float: left; " class="">
+                                        <span style="width: 100%; padding-left: 10px; ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M128 32C92.7 32 64 60.7 64 96V352h64V96H512V352h64V96c0-35.3-28.7-64-64-64H128zM19.2 384C8.6 384 0 392.6 0 403.2C0 445.6 34.4 480 76.8 480H563.2c42.4 0 76.8-34.4 76.8-76.8c0-10.6-8.6-19.2-19.2-19.2H19.2z"/></svg>
+                                        </span>
+                                    </div>
+                                    <div style="width: 80%; float: left;" class="">
+                                        <span style="width: 100%;">Laptop</span>
+                                    </div>   
+                                </div>
+                                <div style="height: 40px;  width: 100%; line-height: 40px;" class="">
+                                    <div style="width: 20%; float: left; " class="">
+                                        <span style="width: 100%; padding-left: 10px; ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M128 32C92.7 32 64 60.7 64 96V352h64V96H512V352h64V96c0-35.3-28.7-64-64-64H128zM19.2 384C8.6 384 0 392.6 0 403.2C0 445.6 34.4 480 76.8 480H563.2c42.4 0 76.8-34.4 76.8-76.8c0-10.6-8.6-19.2-19.2-19.2H19.2z"/></svg>
+                                        </span>
+                                    </div>
+                                    <div style="width: 80%; float: left;" class="">
+                                        <span style="width: 100%;">Laptop</span>
+                                    </div>   
+                                </div>
+                                <div style="height: 40px;  width: 100%; line-height: 40px;" class="">
+                                    <div style="width: 20%; float: left; " class="">
+                                        <span style="width: 100%; padding-left: 10px; ">
+                                            <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 640 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M128 32C92.7 32 64 60.7 64 96V352h64V96H512V352h64V96c0-35.3-28.7-64-64-64H128zM19.2 384C8.6 384 0 392.6 0 403.2C0 445.6 34.4 480 76.8 480H563.2c42.4 0 76.8-34.4 76.8-76.8c0-10.6-8.6-19.2-19.2-19.2H19.2z"/></svg>
+                                        </span>
+                                    </div>
+                                    <div style="width: 80%; float: left;" class="">
+                                        <span style="width: 100%;">Laptop</span>
+                                    </div>   
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="header_profile-search">
+                        <input placeholder="Nhập từ khóa cần tìm" class="test" type="text">
+                        <button style="top: 39px;"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></button> 
+                    </div>
+                    <a href="#" class="header_profile-info">
+                        <div class="header_profile-info--img">
+                            <img style="margin-bottom: -14px;" src="https://tse3.mm.bing.net/th?id=OIP.bpLeJMP29FxwKb-nk8fWTQHaEK&pid=Api&P=0&h=180" alt="">
+                        </div>
+                        <div class="header_profile-info--title" onmouseover="showForm2()">
+                            <div class="header_profile-info--hi">Xin chào,</div>
+                            <div class="header_profile-info--name">Hoài Phúc</div>
+                        </div>
+                    </a>
+                    <div class="header_profile-bell">
+                        <svg style="margin-bottom: -11px;" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M224 0c-17.7 0-32 14.3-32 32V51.2C119 66 64 130.6 64 208v18.8c0 47-17.3 92.4-48.5 127.6l-7.4 8.3c-8.4 9.4-10.4 22.9-5.3 34.4S19.4 416 32 416H416c12.6 0 24-7.4 29.2-18.9s3.1-25-5.3-34.4l-7.4-8.3C401.3 319.2 384 273.9 384 226.8V208c0-77.4-55-142-128-156.8V32c0-17.7-14.3-32-32-32zm45.3 493.3c12-12 18.7-28.3 18.7-45.3H224 160c0 17 6.7 33.3 18.7 45.3s28.3 18.7 45.3 18.7s33.3-6.7 45.3-18.7z"/></svg>
+                        <div class="header_profile-bell-notice">
+
+                        </div>
+                    </div>
+                    <a href="#" class="header_profile-cart">
+                        <svg style="margin-bottom: -13px;" xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2023 Fonticons, Inc. --><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>                   
+                        <div style="" class="">
+                           <div class="header_profile-cart--title">
+                                Giỏ hàng của bạn
+                           </div>
+                            <div class="header_profile-cart--quatity">
+                                (1) sản phẩm
+                            </div>
+                        </div>
+                    </a>
+            </div>
+        </div>
+
+        <div class="body" style="width: 80%; margin: 0 auto;">
+            <div class="body-title">
+                <a href="#">Trang chủ</a> <i style="margin-left: 10px;" class="fa-solid fa-arrow-right"></i> <span style="margin-left: 10px;">Giỏ hàng</span> <br>
+            </div>
+            <div class="cate-container">
+                <div style="width: 64%;" class="">
+                    <div class="cate-table--title">
+                        <div class="">Giỏ hàng</div>
+                        <div class=""><a href="#">Xóa tất cả</a></div>
+                    </div>
+                    <div class="cate-table">
+                        <div class=""></div>
+                        <div style="font-weight: 550;" class="cate-table--header">
+                            <div style="width: 5%; text-align: center;" class=""><input checked id="checkboxAll" type="checkbox"></div>
+                            <div style="width: 60%;" class="">
+                                <span>CÔNG TY CỔ PHẦN THƯƠNG MẠI DỊCH VỤ HP</span>
+                            </div>
+                            <div style="width: 15%;" class="">
+                                <span>Đơn giá</span>
+                            </div>
+                            <div style="width: 15%;" class="">
+                                <span>Số lượng</span>
+                            </div>
+                            <div style="width: 18%;"class="">
+                                <span>Thành tiền</span>
+                            </div>
+                        </div>
+                        <div class="cate-table--body">
+                            <div class="cate-table--body--contain">
+                                <div class="checkbox">
+                                    <input checked class="checkbox1" type="checkbox">
+                                </div>
+                                <div style="width: 60%; text-align: left;" class="cate-img">
+                                    <div style="border: 1px solid gray;" class="">
+                                        <img style="width: 50px; height: 50px; object-fit: cover;" src="https://lh3.googleusercontent.com/c7VuA4P8sHHJCilfzRVp50AQmgZEkJOyOCuh4vvkcT9jxfqTzZVd2gepUFSSqzXVSEljnYlAN319sJD-H1IztNcxPT3UypA=rw" alt="">
+                                    </div>
+                                    <div style="margin-left: 5px;" class="cate-img--span">
+                                        <span>Máy tính xách tay/ Laptop Acer Nitro 5 Eagle AN515-57-54MV (NH.QENSV.003) (i5-11400H) (Đen)
+                                        </span>
+                                    </div>
+                                </div>
+                                <div style="width: 15%;" class="">
+                                    <span>19.990.000 đ</span> <br>
+                                    <span class="price-through">25.990.000 đ</span>
+                                </div>
+                                <div style="width: 15%; position:relative;" class="">
+                                    <div class="quantity">
+                                        <div class=""><i class="fa-solid fa-minus"></i></div>
+                                        <div class="">1</div>
+                                        <div class=""><i class="fa-solid fa-plus"></i></div>
+                                    </div>
+                                    <div style="margin: 0 auto; position:absolute; bottom: 0; left: 40%" class="">
+                                        <a style="text-decoration: none;" href="#">Xóa</a>
+                                    </div>
+                                </div>
+                                <div style="width: 18%;" class="">
+                                    <span>19.990.000 đ</span>
+                                </div>
+                            </div> 
+                            <div class="cate-table--body--contain">
+                                <div class="checkbox">
+                                    <input checked class="checkbox1" type="checkbox">
+                                </div>
+                                <div style="width: 60%; text-align: left;" class="cate-img">
+                                    <div style="border: 1px solid gray;" class="">
+                                        <img style="width: 50px; height: 50px; object-fit: cover;" src="https://lh3.googleusercontent.com/c7VuA4P8sHHJCilfzRVp50AQmgZEkJOyOCuh4vvkcT9jxfqTzZVd2gepUFSSqzXVSEljnYlAN319sJD-H1IztNcxPT3UypA=rw" alt="">
+                                    </div>
+                                    <div style="margin-left: 5px;" class="cate-img--span">
+                                        <span>Máy tính xách tay/ Laptop Acer Nitro 5 Eagle AN515-57-54MV (NH.QENSV.003) (i5-11400H) (Đen)
+                                        </span>
+                                    </div>
+                                </div>
+                                <div style="width: 15%;" class="">
+                                    <span>19.990.000 đ</span> <br>
+                                    <span class="price-through">25.990.000 đ</span>
+                                </div>
+                                <div style="width: 15%; position:relative;" class="">
+                                    <div class="quantity">
+                                        <div class=""><i class="fa-solid fa-minus"></i></div>
+                                        <div class="">1</div>
+                                        <div class=""><i class="fa-solid fa-plus"></i></div>
+                                    </div>
+                                    <div style="margin: 0 auto; position:absolute; bottom: 0; left: 40%" class="">
+                                        <a style="text-decoration: none;" href="#">Xóa</a>
+                                    </div>
+                                </div>
+                                <div style="width: 18%;" class="">
+                                    <span>19.990.000 đ</span>
+                                </div>
+                            </div> 
+                            <div class="cate-table--body--contain">
+                                <div class="checkbox">
+                                    <input checked class="checkbox1" type="checkbox">
+                                </div>
+                                <div style="width: 60%; text-align: left;" class="cate-img">
+                                    <div style="border: 1px solid gray;" class="">
+                                        <img style="width: 50px; height: 50px; object-fit: cover;" src="https://lh3.googleusercontent.com/c7VuA4P8sHHJCilfzRVp50AQmgZEkJOyOCuh4vvkcT9jxfqTzZVd2gepUFSSqzXVSEljnYlAN319sJD-H1IztNcxPT3UypA=rw" alt="">
+                                    </div>
+                                    <div style="margin-left: 5px;" class="cate-img--span">
+                                        <span>Máy tính xách tay/ Laptop Acer Nitro 5 Eagle AN515-57-54MV (NH.QENSV.003) (i5-11400H) (Đen)
+                                        </span>
+                                    </div>
+                                </div>
+                                <div style="width: 15%;" class="">
+                                    <span>19.990.000 đ</span> <br>
+                                    <span class="price-through">25.990.000 đ</span>
+                                </div>
+                                <div style="width: 15%; position:relative;" class="">
+                                    <div class="quantity">
+                                        <div class=""><i class="fa-solid fa-minus"></i></div>
+                                        <div class="">1</div>
+                                        <div class=""><i class="fa-solid fa-plus"></i></div>
+                                    </div>
+                                    <div style="margin: 0 auto; position:absolute; bottom: 0; left: 40%" class="">
+                                        <a style="text-decoration: none;" href="#">Xóa</a>
+                                    </div>
+                                </div>
+                                <div style="width: 18%;" class="">
+                                    <span>19.990.000 đ</span>
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <div style="width: 36%; padding: 10px 0 10px 10px; height: 100%;" class="">
+                    <div style="padding: 10px 15px 9px 0;" class="flex1">
+                        <div class=""></div>
+                        <div class="predictPrice">
+                            <span>Tải báo giá</span> <i style="margin-left: 5px; font-size: 10px;" class="fa-solid fa-arrow-down fa-arrow-down1"></i>
+                            <div class="pdf-predictPrice">
+                                <i class="fa-solid fa-file-pdf"></i> <span style="margin-left: 5px;">PDF</span>
+                            </div>
+                        </div>
+                       
+                    </div>
+                    <div style="padding: 13px 10px;" class="flex">
+                        <div class=""><span style="font-weight: 550; font-size: 17px;">Khuyến mãi</span></div>
+                        <div class=""><a style="text-decoration: none; color: blue;" href="#"> <i style="font-size: 12px; margin-right: 8px;" class="fa-solid fa-tag"></i> Chọn hoặc nhập khuyến mãi</a></div>
+                    </div>
+                    <div class="cart-continue">
+                        <table style="width: 100%;">
+                            <tr style="text-align: left;">
+                                <th style="padding: 15px 0;" colspan="2">Thanh toán</th>
+                            </tr> 
+                            <tr>
+                                <td>Tổng tạm tính</td>
+                                <td style="text-align: right; font-size: 17px;">31.180.000đ</td>
+                            </tr>
+                            <tr>
+                                <td style="padding-top: 5px ;">Thành tiền</td>
+                                <td style="text-align: right; color: rgb(20, 53, 195); font-weight: 700; font-size: 17px; margin-top: 10px;">31.180.000đ</td>
+                            </tr>
+                            <tr>
+                                <td style="text-align: right; color: rgb(130, 134, 158); font-size: 13px; font-weight: 550;" colspan="2">(Đã bao gồm VAT)</td>
+                            </tr>
+                            <tr>
+                                <td colspan="2">
+                                    <input type="submit" value="TIẾP TỤC">
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <hr style="border: 2px solid rgb(0, 0, 147);">
+        <div class="footer">
+            <div class="footer-container1">
+                <div class="container1-info">
+                    <div class="container1-info--title">
+                        <div class="container1-info--title1">
+                            <p>Hỗ trợ khách hàng</p>
+                            <ul>
+                                <li>Thẻ ưu đãi</li>
+                                <li>Hướng dẫn mua hàng</li>
+                                <li>ưu đãi dành cho doanh nghiệp</li>
+                                <li>Chính sách trả góp</li>
+                                <li>dịch vụ sửa chữa</li>
+                            </ul>
+                        </div>
+                        <div class="container1-info--title1">
+                            <p>Hỗ trợ khách hàng</p>
+                            <ul>
+                                <li>Thẻ ưu đãi</li>
+                                <li>Hướng dẫn mua hàng</li>
+                                <li>ưu đãi dành cho doanh nghiệp</li>
+                                <li>Chính sách trả góp</li>
+                                <li>dịch vụ sửa chữa</li>
+                            </ul>
+                        </div>
+                        <div class="container1-info--title1">
+                            <p>Hỗ trợ khách hàng</p>
+                            <ul>
+                                <li>Thẻ ưu đãi</li>
+                                <li>Hướng dẫn mua hàng</li>
+                                <li>ưu đãi dành cho doanh nghiệp</li>
+                                <li>Chính sách trả góp</li>
+                                <li>dịch vụ sửa chữa</li>
+                            </ul>
+                        </div>
+                        <div class="container1-info--title1">
+                            <span>Chính sách mua hàng</span>
+                            <ul>
+                                <li>Thẻ ưu đãi</li>
+                                <li>Hướng dẫn mua hàng</li>
+                                <li>ưu đãi dành cho doanh nghiệp</li>
+                                <li>Chính sách trả góp</li>
+                                <li>dịch vụ sửa chữa</li>
+                            </ul>
+                        </div>
+                        <div class="container1-info--title1">
+                            <span>Thông tin Phong Vũ</span>
+                            <ul>
+                                <li>Thẻ ưu đãi</li>
+                                <li>Hướng dẫn mua hàng</li>
+                                <li>ưu đãi dành cho doanh nghiệp</li>
+                                <li>Chính sách trả góp</li>
+                                <li>dịch vụ sửa chữa</li>
+                            </ul>
+                        </div>
+                        <div class="container1-info--title1">
+                            <span>Cộng đồng Phong Vũ</span>
+                            <ul>
+                                <li>Thẻ ưu đãi</li>
+                                <li>Hướng dẫn mua hàng</li>
+                                <li>ưu đãi dành cho doanh nghiệp</li>
+                                <li>Chính sách trả góp</li>
+                                <li>dịch vụ sửa chữa</li>
+                            </ul>
+                        </div>
+                        <div class="container1-info--title1">
+                            <span>Email liên hệ</span>
+                            <ul>
+                                <li>Thẻ ưu đãi</li>
+                                <li>Hướng dẫn mua hàng</li>
+                                <li>ưu đãi dành cho doanh nghiệp</li>
+                                <li>Chính sách trả góp</li>
+                                <li>dịch vụ sửa chữa</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-container2">
+                <div class="container1-info">
+                    <div style="padding: 20px 0;" class="container1-info--title">
+                        <div style="width: 40%;" class="container1-info--title1">
+                            <p>CÔNG TY CỔ PHẦN THƯƠNG MẠI - DỊCH VỤ PHONG VŨ</p>
+                            <ul>
+                                <li>Thẻ ưu đãi</li>
+                                <li>Hướng dẫn mua hàng</li>
+                                <li>ưu đãi dành cho doanh nghiệp</li>
+                                <li>Chính sách trả góp</li>
+                                <li>dịch vụ sửa chữa</li>
+                            </ul>
+                        </div>
+                        <div style="width: 40%;" class="container1-info--title1">
+                            <p>Hỗ trợ khách hàng</p>
+                            <ul>
+                                <li>Thẻ ưu đãi</li>
+                                <li>Hướng dẫn mua hàng</li>
+                                <li>ưu đãi dành cho doanh nghiệp</li>
+                                <li>Chính sách trả góp</li>
+                                <li>dịch vụ sửa chữa</li>
+                            </ul>
+                        </div>
+                        <div class="container1-info--title1">
+                            <p>Hỗ trợ khách hàng</p>
+                            <ul>
+                                <li>Thẻ ưu đãi</li>
+                                <li>Hướng dẫn mua hàng</li>
+                                <li>ưu đãi dành cho doanh nghiệp</li>
+                                <li>Chính sách trả góp</li>
+                                <li>dịch vụ sửa chữa</li>
+                            </ul>
+                        </div>           
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script
+  type="text/javascript"
+  src="https://code.jquery.com/jquery-1.11.0.min.js"
+></script>
+<script
+  type="text/javascript"
+  src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+></script>
+<script
+  type="text/javascript"
+  src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+></script>
+<script src="app.js"></script>
+</body>
+</html>
+
